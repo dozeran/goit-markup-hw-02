@@ -75,9 +75,12 @@ body {
 }
 
 /* Авторизація */
+.contacts {
+  text-decoration: none;
+}
+
 .contact-menu {
   color: var(--primery-text-color);
-  text-decoration: none;
   font-style: normal;
   margin: 20px;
 }
@@ -100,6 +103,8 @@ body {
   font-size: 56px;
   color: var(--main-white-color);
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* Кнопка */
@@ -115,9 +120,13 @@ body {
   border: 0;
   cursor: pointer;
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--hover-color);
 }
 
@@ -133,7 +142,8 @@ body {
   letter-spacing: 0.04em;
 }
 
-.button-port:hover {
+.button-port:hover,
+.button-port:focus {
   color: var(--main-white-color);
   background: var(--hover-color);
 }
@@ -145,6 +155,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .advantages-list .title {
