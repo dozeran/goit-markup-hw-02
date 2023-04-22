@@ -60,8 +60,6 @@ body {
   text-decoration: none;
   margin: 0 20px 0 20px;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .site-nav > li {
@@ -103,7 +101,6 @@ body {
   color: var(--main-white-color);
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 
 /* Кнопка */
@@ -119,9 +116,6 @@ body {
   border: 0;
   cursor: pointer;
   letter-spacing: 0.04em;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .button:hover,
@@ -139,9 +133,6 @@ body {
   border: 0;
   cursor: pointer;
   letter-spacing: 0.04em;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .button-port:hover,
@@ -157,7 +148,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
-  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -166,7 +156,6 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .advantages-list > li {
   display: inline-block;
@@ -185,7 +174,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 .teammates > li {
@@ -197,7 +185,6 @@ body {
 }
 
 .paragraph {
-  font-size: 16px;
   color: var(--primery-text-color);
 }
 
@@ -210,7 +197,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 /* Футер */
