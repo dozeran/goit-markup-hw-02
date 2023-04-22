@@ -133,7 +133,7 @@ body {
 .button-port {
   color: var(--accent-color);
   font-weight: 500;
-  background-color: var(--botton-bg);
+  background: var(--logo-footer);
   padding: 12px 24px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
