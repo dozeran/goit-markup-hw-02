@@ -18,10 +18,15 @@ body {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.no-list {
+.list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* Хедер */
@@ -31,16 +36,17 @@ body {
 
 /* Логотип */
 .logo {
-  color: var(--title-text-color);
-  text-decoration: none;
+  color: var(--accent-color);
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo span {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .logo > .logo-footer {
@@ -48,32 +54,36 @@ body {
 }
 
 /* Головна навігація */
-.site-nav .link {
+.main-menu {
   color: var(--title-text-color);
   font-weight: 500;
   text-decoration: none;
   margin: 0 20px 0 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .site-nav > li {
   display: inline-block;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.main-menu:hover,
+.main-menu:focus {
   color: var(--hover-color);
 }
 
 /* Авторизація */
-.auth-nav .link {
+.contact-menu {
   color: var(--primery-text-color);
   text-decoration: none;
   font-style: normal;
   margin: 20px;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.contact-menu:hover,
+.contact-menu:focus {
   color: var(--hover-color);
 }
 
@@ -104,6 +114,7 @@ body {
   border-radius: 4px;
   border: 0;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .button:hover {
@@ -119,6 +130,7 @@ body {
   border-radius: 4px;
   border: 0;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .button-port:hover {
@@ -132,6 +144,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-transform: capitalize;
 }
 
 .advantages-list .title {
