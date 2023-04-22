@@ -133,13 +133,16 @@ body {
 .button-port {
   color: var(--accent-color);
   font-weight: 500;
-  background: var(--botton-bg);
+  background-color: var(--botton-bg);
   padding: 12px 24px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
   cursor: pointer;
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .button-port:hover,
