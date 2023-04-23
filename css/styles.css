@@ -89,6 +89,7 @@ body {
   color: var(--main-white-color);
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* Кнопка */
@@ -99,6 +100,9 @@ body {
   height: 56px;
   background: var(--accent-color);
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   cursor: pointer;
 }
 
@@ -112,6 +116,9 @@ body {
   font-weight: 500;
   background: var(--logo-footer);
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   cursor: pointer;
 }
 
@@ -128,6 +135,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -136,6 +144,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team {
@@ -147,10 +156,15 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-list {
   background-color: var(--main-white-color);
+}
+
+.paragraph {
+  color: var(--primery-text-color);
 }
 
 .portfolio-list .portfolio-name {
@@ -158,6 +172,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Футер */
