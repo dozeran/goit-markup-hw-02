@@ -62,10 +62,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav > li {
-  display: inline-block;
-}
-
 .main-menu:hover,
 .main-menu:focus {
   color: var(--hover-color);
@@ -90,10 +86,6 @@ body {
   color: var(--hover-color);
 }
 
-.contacts-list {
-  display: flex;
-}
-
 /* Герой */
 .hero {
   height: 600px;
@@ -114,11 +106,6 @@ body {
   width: 169px;
   height: 56px;
   background: var(--accent-color);
-  padding: 16px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 0;
-  cursor: pointer;
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -134,11 +121,6 @@ body {
   color: var(--accent-color);
   font-weight: 500;
   background: var(--logo-footer);
-  padding: 12px 24px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 0;
-  cursor: pointer;
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -169,13 +151,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.advantages-list > li {
-  display: inline-block;
-}
-
-.work > li {
-  display: inline-block;
-}
 
 .team {
   background-color: var(--logo-footer);
@@ -189,10 +164,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.teammates > li {
-  display: inline-block;
-}
-
 .team-list {
   background-color: var(--main-white-color);
 }
@@ -200,10 +171,6 @@ body {
 .paragraph {
   font-size: 16px;
   color: var(--primery-text-color);
-}
-
-.button-list > li {
-  display: inline-block;
 }
 
 .portfolio-list .portfolio-name {
